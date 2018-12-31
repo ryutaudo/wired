@@ -85,3 +85,6 @@ yarn-error.log*
 
 # editor
 .vscode
+
+# webpack bundle
+bundle.js
