@@ -15,6 +15,7 @@
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2"
   },
@@ -33,6 +34,7 @@
     "eslint-plugin-react": "^7.11.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.3",
+    "react-hot-loader": "^4.6.3",
     "react-testing-library": "^5.4.2",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.1.2",
