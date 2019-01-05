@@ -12,7 +12,7 @@
     "not op_mini all"
   ],
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "webpack-dev-server --open --mode development"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
