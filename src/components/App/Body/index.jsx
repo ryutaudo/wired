@@ -7,7 +7,7 @@ const Body = () => {
     <div>
       <p>{`You clicked ${count} times`}</p>
       <button type="button" onClick={() => setCount(count + 1)}>
-        Click me
+        Click Me
       </button>
     </div>
   );
