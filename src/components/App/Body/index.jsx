@@ -16,6 +16,9 @@ const Body = () => {
       >
         Add Post
       </button>
+      {list.map(item => (
+        <div>{item}</div>
+      ))}
     </div>
   );
 };
