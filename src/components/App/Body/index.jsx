@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
 
 const Body = () => {
-  const [count, setCount] = useState(0);
+  const [list, setList] = useState([]);
+  const [post, setPost] = useState('');
 
   return (
     <div>
-      <p>{`You clicked ${count} times`}</p>
-      <button type="button" onClick={() => setCount(count + 1)}>
-        Click me
+      <input value={post} onChange={event => setPost(event.target.value)} />
+      <button
+        type="button"
+        onClick={() => {
+          setList(list.concat(post));
+          setPost('');
+        }}
+      >
+        Add Post
       </button>
     </div>
   );
