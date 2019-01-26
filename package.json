@@ -12,9 +12,11 @@
     "not op_mini all"
   ],
   "scripts": {
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "start:server": "./node_modules/.bin/babel-node server/server.js"
   },
   "dependencies": {
+    "@babel/node": "^7.2.2",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.1.1",
